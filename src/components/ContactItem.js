@@ -5,7 +5,7 @@ import DeleteButton from './DeleteButton';
 
 function ContactItem({ imageUrl, name, tag, id, onDelete }) {
   return (
-    <div class="contact-item">
+    <div className="contact-item">
       <ContactItemImage imageUrl={imageUrl} />
       <ContactItemBody name={name} tag={tag} />
       <DeleteButton id={id} onDelete={onDelete} />

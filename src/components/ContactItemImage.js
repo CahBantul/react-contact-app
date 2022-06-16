@@ -2,7 +2,7 @@ import React from 'react';
 
 function ContactItemImage({ imageUrl }) {
   return (
-    <div class="contact-item__image">
+    <div className="contact-item__image">
       <img src={imageUrl} alt="contact avatar" />
     </div>
   );
